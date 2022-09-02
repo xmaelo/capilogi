@@ -9,3 +9,7 @@ body{
 .listed-text2 {
 	display: block !important;
 }
+
+.services .serv-field .serv-cont .more {
+    justify-content: flex-center !important;
+}

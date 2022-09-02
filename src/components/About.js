@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function About(){
 	return (
-		<section className="team section-padding">
+		<section className="team bg-color-gray section-padding">
 	        <div className="container">
 	            <div className="main-heading">
 	                <h5 className="pb-2">About us</h5>

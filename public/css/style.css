@@ -827,7 +827,7 @@ header nav.navbar-responsive ul.navbar-nav li:not(:last-child) a {
     line-height: 1.7;
 }
 .moreview .over-field .view-content .merits {
-    display: flex;
+    /*display: flex;*/
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -963,8 +963,8 @@ header nav.navbar-responsive ul.navbar-nav li:not(:last-child) a {
     color: #fff;
 }
 .services .serv-field .serv-cont .more {
-    display: flex;
-    justify-content: flex-end;
+    /*display: flex;
+    mar*/gin: auto !important;
 }
 /* End Services */
 

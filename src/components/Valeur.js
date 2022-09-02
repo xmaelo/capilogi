@@ -35,7 +35,7 @@ export default function Valeur(){
 			                        </div>
 			                    </div>
 			                    <div className="col-8">
-			                        <h4 className='display-4'>La Proximité:</h4>
+			                        <h4 className='h3'>La Proximité:</h4>
 				                    <p className="pt-10 text-2xl text-blueGray font-bold">
 				                    	Nous mettons en place des méthodologies de travail (scrum/agile) qui
 										nous permette de rester à l’écoute de nos clients  <br/>
@@ -53,7 +53,7 @@ export default function Valeur(){
 			                        </div>
 			                    </div>
 			                    <div className="col-8">
-			                        <h4 className='display-4'>La Satisfaction:</h4>
+			                        <h4 className='h3'>La Satisfaction:</h4>
 				                    <p className="pt-10 text-2xl text-blueGray font-bold">
 				                    	Nous partons du principe que la satisfaction de notre client
 										conditionne la notre, alors nous misons énormément sur la satisfaction qui va être le
@@ -72,7 +72,7 @@ export default function Valeur(){
 			                        </div>
 			                    </div>
 			                    <div className="col-8">
-			                        <h4 className='display-4'>L’Innovation:</h4>
+			                        <h4 className='h3'>L’Innovation:</h4>
 				                    <p className="pt-10 text-2xl text-blueGray font-bold">
 				                    	Les technologies du secteur de l’informatique (web, mobile,...)
 										évoluent très rapidement alors pour éviter l'obsolescence, nous nous formons

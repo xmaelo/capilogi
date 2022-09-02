@@ -29,24 +29,24 @@ export default function Header(){
 	                        <li className="nav-item drop-cont">
 	                            <a className="nav-link" href="#" role="button">
 	                                Services
-	                                <i className="fas fa-chevron-down"></i>
+	                                {/*<i className="fas fa-chevron-down"></i>*/}
 	                            </a>
-	                            <ul className="dropdown-items ps-0">
+	                            {/*<ul className="dropdown-items ps-0">
 	                                <li><a className="nav-item" href="services-1.html">Services1</a></li>
 	                                <li><a className="nav-item" href="services-2.html">Services2</a></li>
 	                                <li><a className="nav-item" href="services-details.html">Service Details</a></li>
-	                            </ul>
+	                            </ul>*/}
 	                        </li>
 	                        <li className="nav-item drop-cont">
 	                            <a className="nav-link" href="#" role="button">
 	                                Projects
-	                                <i className="fas fa-chevron-down"></i>
+	                                {/*<i className="fas fa-chevron-down"></i>*/}
 	                            </a>
-	                            <ul className="dropdown-items ps-0">
+	                           {/* <ul className="dropdown-items ps-0">
 	                              <li><a className="nav-item" href="project-1.html">Projects1</a></li>
 	                              <li><a className="nav-item" href="project-2.html">Projects2</a></li>
 	                              <li><a className="nav-item" href="project-details.html">Project Details</a></li>
-	                            </ul>
+	                            </ul>*/}
 	                        </li>
 	                        <li className="nav-item mx-1">
 	                            <a className="nav-link" href="about.html">A Propos</a>
@@ -54,18 +54,18 @@ export default function Header(){
 	                        <li className="nav-item drop-cont">
 	                            <a className="nav-link" href="#" role="button">
 	                                Blog
-	                                <i className="fas fa-chevron-down"></i>
+	                                {/*<i className="fas fa-chevron-down"></i>*/}
 	                            </a>
-	                            <ul className="dropdown-items ps-0">
+	                            {/*<ul className="dropdown-items ps-0">
 	                              <li><a className="nav-item" href="blog.html">Blog</a></li>
 	                              <li><a className="nav-item" href="blog-sidebar.html">Blog Sidebar</a></li>
 	                              <li><a className="nav-item" href="blog-details.html">Blog Details</a></li>
-	                            </ul>
+	                            </ul>*/}
 	                        </li>
 	                        <li className="nav-item mx-1">
 	                            <a className="nav-link" href="contact.html">Contact</a>
 	                        </li>
-	                        <li className="nav-item drop-cont">
+	                        {/*<li className="nav-item drop-cont">
 	                            <a className="nav-link" href="#" role="button">
 	                                Pages
 	                                <i className="fas fa-chevron-down"></i>
@@ -78,7 +78,7 @@ export default function Header(){
 	                              <li><a className="nav-item" href="coming-soon.html">Coming Soon</a></li>
 	                              <li><a className="nav-item" href="404.html">404 Page</a></li>
 	                            </ul>
-	                        </li>
+	                        </li>*/}
 	                    </ul>
 	                </div>
 	                <div className="header-quote d-none d-lg-block">
