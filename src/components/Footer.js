@@ -56,12 +56,10 @@ export default function Footer(){
 	                        Services
 	                    </h4>
 	                    <ul>
-	                        <li><a href="#">IT Solution</a></li>
-	                        <li><a href="#">Software</a></li>
-	                        <li><a href="#">SEO Services</a></li>
-	                        <li><a href="#">Digital Markiting</a></li>
-	                        <li><a href="#">Web Development</a></li>
-	                        <li><a href="#">Big Data & BI</a></li>
+	                        <li><a href="#">Développement mobile</a></li>
+	                        <li><a href="#">Développement web</a></li>
+	                        <li><a href="#">Data engineering</a></li>
+	                        <li><a href="#">Logiciel métier</a></li>
 	                    </ul>
 	                </div>
 	                <div className="foot-Links pb-2 pb-lg-0 mb-3 mb-lg-0 col-12 col-md-6 col-lg-2">
@@ -70,11 +68,10 @@ export default function Footer(){
 	                        Quick links
 	                    </h4>
 	                    <ul>
-	                        <li><a href="#">Projects</a></li>
 	                        <li><a href="#">Services</a></li>
+	                        <li><a href="#">Projects</a></li>
+	                        <li><a href="#">A Propos</a></li>
 	                        <li><a href="#">Blog</a></li>
-	                        <li><a href="#">Team Members</a></li>
-	                        <li><a href="#">Reviews</a></li>
 	                        <li><a href="#">Contact</a></li>
 	                    </ul>
 	                </div>

@@ -10,7 +10,7 @@ export default function Valeur(){
 	                <div className="prog-details-content col-lg-12">
 	                    
 	                    <div className="prog-details-text">
-	                    	<div className="main-heading">
+	                    	<div className="main-heading mt-3">
 				                <h2>Valeurs</h2>
 				            </div>
 

@@ -27,9 +27,9 @@ export default function Metier(){
 	                    </div>
 	                    <p className="pb-2">
 	                    	<strong><i class="fas fa-arrow-right"></i> Recrutement: CAPILOGI</strong>  c’est aussi un cabinet de recrutement. Grâce à notre
-							expertise du secteur IT, nous recrutons pour vous les meilleurs profils de
-							développeurs web, de développeurs mobile, d’ingénieur data pour vous
-							accompagner dans votre croissance.
+								expertise du secteur IT, nous recrutons pour vous les meilleurs profils de
+								développeurs web, de développeurs mobile, d’ingénieur data pour vous
+								accompagner dans votre croissance.
 	                    </p>
 	                </div>
 	              

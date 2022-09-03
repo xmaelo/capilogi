@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function Contact(){
 	return(
-		<section class="contact section-padding">
+		<section class="contact mt-3">
 	        <div class="container">
 	            <div class="main-heading">
 	                <h5 class="pb-2">Contact</h5>

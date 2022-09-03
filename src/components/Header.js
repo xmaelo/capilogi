@@ -3,15 +3,19 @@ import React from 'react'
 
 
 export default function Header(){
+	//logo blanc sans fond
 	return (
 		<header className="shadow-sm">
 	        <nav className="navbar-desktop d-none d-lg-block w-100">
 	            <div className="container d-flex justify-content-between align-items-center position-relative">
 	                <a className="navbar-brand p-0" href="index.html">
 	                    
-		                <span className="branding">
+		                {/*<span className="branding">
 		                	CAPILOGI
-		                </span>
+		                </span>*/}
+		                <a class="navbar-brand p-0" href="/">
+		                    <img src="images/logo/1.png" alt="inform logo"/>
+		                </a>
 	                </a>
 	                <div className="ul-cont justify-content-center">
 	                    <ul className="navbar-nav d-flex flex-row justify-content-start mb-2 mb-lg-0">
@@ -81,19 +85,22 @@ export default function Header(){
 	                        </li>*/}
 	                    </ul>
 	                </div>
-	                <div className="header-quote d-none d-lg-block">
-	                    <a className="unique-link" href="#">Discuter</a>
+	                <div className="">
+	                    <a className="main-btn-3 mx-2" href="#">
+	                    	Discuter
+	                    	<i className="fas fa-angle-double-right"></i>
+	                    </a>
 	                </div>
 	            </div>
 	        </nav>
 	        <nav className="navbar-responsive d-block d-lg-none w-100">
 	            <div className="container d-flex justify-content-between align-items-center position-relative">
 	                <a className="navbar-brand p-0" href="index.html">
-	                    <img src="images/logos/logo_white.png" alt="inform logo"/>
+	                    <img src="images/logo/1.png" alt="inform logo"/>
 	                </a>
 	                <div className="ul-cont justify-content-center ms-auto">
 	                    <ul className="navbar-nav mb-2 mb-lg-0">
-	                        <li className="nav-item drop-cont">
+	                        {/*<li className="nav-item drop-cont">
 	                            <button className="nav-link">
 	                                Home
 	                                <i className="fas fa-chevron-down"></i>
@@ -102,11 +109,14 @@ export default function Header(){
 	                                <li><a className="nav-item" href="index.html">Home1</a></li>
 	                                <li><a className="nav-item" href="index-1.html">Home2</a></li>
 	                            </ul>
+	                        </li>*/}
+	                        <li className="nav-item mx-1">
+	                            <a className="nav-link" href="about.html">Services</a>
 	                        </li>
 	                        <li className="nav-item mx-1">
-	                            <a className="nav-link" href="about.html">About Us</a>
+	                            <a className="nav-link" href="about.html">Projets</a>
 	                        </li>
-	                        <li className="nav-item drop-cont">
+	                        {/*<li className="nav-item drop-cont">
 	                            <button className="nav-link">
 	                                Services
 	                                <i className="fas fa-chevron-down"></i>
@@ -116,8 +126,8 @@ export default function Header(){
 	                                <li><a className="nav-item" href="services-2.html">Services2</a></li>
 	                                <li><a className="nav-item" href="services-details.html">Service Details</a></li>
 	                            </ul>
-	                        </li>
-	                        <li className="nav-item drop-cont">
+	                        </li>*/}
+	                        {/*<li className="nav-item drop-cont">
 	                            <button className="nav-link">
 	                                Projects
 	                                <i className="fas fa-chevron-down"></i>
@@ -138,11 +148,14 @@ export default function Header(){
 	                                <li><a className="nav-item" href="blog-sidebar.html">Blog Sidebar</a></li>
 	                                <li><a className="nav-item" href="blog-details.html">Blog Details</a></li>
 	                            </ul>
+	                        </li>*/}
+	                        <li className="nav-item mx-1">
+	                            <a className="nav-link" href="about.html">A Propos</a>
 	                        </li>
 	                        <li className="nav-item mx-1">
 	                            <a className="nav-link" href="contact.html">Contact</a>
 	                        </li>
-	                        <li className="nav-item drop-cont">
+	                        {/*<li className="nav-item drop-cont">
 	                            <button className="nav-link">
 	                                Pages
 	                                <i className="fas fa-chevron-down"></i>
@@ -155,7 +168,7 @@ export default function Header(){
 	                                <li><a className="nav-item" href="coming-soon.html">Coming Soon</a></li>
 	                                <li><a className="nav-item" href="404.html">404 Page</a></li>
 	                            </ul>
-	                        </li>
+	                        </li>*/}
 	                    </ul>
 	                </div>
 	                <button className="menu-toggle-button d-block d-lg-none" type="button">

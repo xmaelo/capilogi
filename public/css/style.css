@@ -38,19 +38,19 @@
 
 /* Start Variables */
 :root {
-    --main-color: #00a8ff;
-    --sec-color-1: #ff3838;
+    --main-color: #ea2088;
+    --sec-color-1: #080B53;
     --sec-opacity-1: hsla(0, 100%, 61%, 0.5);
-    --sec-color-2: #1B1464;
-    --sec-color-3: #FF9F1A;
+    --sec-color-2: #080B53; /*#1B1464;*/
+    --sec-color-3: #ea2088;
     --main-transition: 0.4s ease;
 }
 /* End Variables */
 
 /* Start components */
 .section-padding {
-    padding-top: 90px;
-    padding-bottom: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .main-gradiant {
     background: #00a8ff;
@@ -122,7 +122,9 @@
     transition: margin var(--main-transition) , opacity var(--main-transition) , padding var(--main-transition);
 }
 .main-btn-3:hover {
-    color: var(--sec-color-3);
+    color: white;
+    border: 2px solid white;
+    /*color: var(--sec-color-3);*/
     background-color: transparent;
 }
 .main-btn-3:hover i {
@@ -2208,7 +2210,8 @@ footer address {
     color: #ededed;
 }
 footer .footer-field h4 {
-    color: var(--sec-color-1);
+    color: var(--sec-color-3);
+    /*color: var(--sec-color-1);*/
     margin-bottom: 15px;
     font-family: "Acme" , sans-serif;
 }
@@ -2223,7 +2226,7 @@ footer .footer-field .foot-about .foot-social ul li a {
     width: 40px;
     border-radius: 50%;
     background-color: var(--sec-color-2);
-    color: var(--sec-color-1);
+    color: white; /*var(--sec-color-1);*/
     transition: var(--main-transition);
 }
 footer .footer-field .foot-about .foot-social ul li a:hover {

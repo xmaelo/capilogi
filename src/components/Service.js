@@ -19,7 +19,7 @@ export default function Service(){
 	                        <h3 class="my-3">Développement mobile</h3>
 	                        {/*<p>Nos experts maîtrisent les technologies multiplateformes, voilà pourquoi nous créons ...</p>*/}
 	                        <div class="more">
-	                            <a class="sec-btn" href="services-details.html">Lire plus</a>
+	                            <a class="sec-btn" href="services-details.html">Détails</a>
 	                        </div>
 	                    </div>
 	                </div>
@@ -31,7 +31,7 @@ export default function Service(){
 	                        <h3 class="my-3">Développement web</h3>
 	                        {/*<p>Un site internet est une présentation globale de votre entreprise auprès de votre ...</p>*/}
 	                        <div class="more">
-	                            <a class="sec-btn" href="services-details.html">Lire plus</a>
+	                            <a class="sec-btn" href="services-details.html">Détails</a>
 	                        </div>
 	                    </div>
 	                </div>
@@ -43,7 +43,7 @@ export default function Service(){
 	                        <h3 class="my-3">Data engineering</h3>
 	                        {/*<p>Quelle que soit sa taille, votre organisation produit des données. Ces données sont ...</p>*/}
 	                        <div class="more">
-	                            <a class="sec-btn" href="services-details.html">Lire Plus</a>
+	                            <a class="sec-btn" href="services-details.html">Détails</a>
 	                        </div>
 	                    </div>
 	                </div>
@@ -55,16 +55,16 @@ export default function Service(){
 	                        <h3 class="my-3"> Logiciel métier</h3>
 	                        {/*<p>Un logiciel métier est une solution développée pour répondre aux spécificités d’un ...</p>*/}
 	                        <div class="more">
-	                            <a class="sec-btn" href="services-details.html">lire Plus</a>
+	                            <a class="sec-btn" href="services-details.html">Détails</a>
 	                        </div>
 	                    </div>
 	                </div>
 	            </div>
-	            <div class="more-prog text-center mt-3">
+	           {/* <div class="more-prog text-center mt-3">
 	                <a href="services-1.html" class="main-btn-2">More Services
 	                    <i class="fas fa-angle-double-right"></i>
 	                </a>
-	            </div>
+	            </div>*/}
 	        </div>
 	    </section>
 	)
