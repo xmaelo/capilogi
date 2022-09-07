@@ -3,68 +3,100 @@ import React from 'react'
 
 
 export default function Service(){
+	function scrool(element, min) {
+	  const Min = min ? min : 0
+      const div = document.getElementById(element);
+      window.scrollTo(0, (div.offsetTop - Min));
+	 // var topPos = div.offsetTop;
+	 // console.log('topPos', topPos)
+  //     div.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+    }
 	return (
-		<section class="services section-padding">
-	        <div class="container">
-	            <div class="main-heading">
-	                <h5 class="pb-2">Services</h5>
-	                <h2>The Services we Provide</h2>
+		<section className="services section-padding" id="Services">
+	        <div className="container">
+	            <div className="main-heading">
+	                <h5 className="pb-2">Services</h5>
+	                <h2>Nos services sur-mesures pour répondre à vos besoins </h2>
 	            </div>
-	            <div class="serv-field mt-5 row text-center">
-	                <div class="serv-box mb-4 col-12 col-md-6 col-lg-3">
-	                    <div class="serv-cont serv-cont-2 p-4">
-	                        <div class="image  p-3 rounded-circle mx-auto">
-	                            <img src="images/services/services1.png" alt="services image"/>
+	            <div className="serv-field mt-5 row">
+	                <div className="serv-box mb-4 col-12 col-md-6 col-lg-4" id="Metier">
+	                    <div className="serv-cont serv-cont-2 p-4">
+	                        <div className="image p-3 rounded-circle">
+	                            <img src="images/services/services1.png" alt="Logiciel image"/>
 	                        </div>
-	                        <h3 class="my-3">Développement mobile</h3>
-	                        {/*<p>Nos experts maîtrisent les technologies multiplateformes, voilà pourquoi nous créons ...</p>*/}
-	                        <div class="more">
-	                            <a class="sec-btn" href="services-details.html">Détails</a>
-	                        </div>
-	                    </div>
-	                </div>
-	                <div class="serv-box mb-4 col-12 col-md-6 col-lg-3">
-	                    <div class="serv-cont serv-cont-2 p-4">
-	                        <div class="image p-3 rounded-circle  mx-auto">
-	                            <img src="images/services/services2.png" alt="services image"/>
-	                        </div>
-	                        <h3 class="my-3">Développement web</h3>
-	                        {/*<p>Un site internet est une présentation globale de votre entreprise auprès de votre ...</p>*/}
-	                        <div class="more">
-	                            <a class="sec-btn" href="services-details.html">Détails</a>
+	                        <h3 className="my-3">Logiciel Métier</h3>
+	                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of</p>
+	                        <div className="more">
+	                            <a className="sec-btn" href="services-details.html">Read More</a>
 	                        </div>
 	                    </div>
 	                </div>
-	                <div class="serv-box mb-4 col-12 col-md-6 col-lg-3">
-	                    <div class="serv-cont serv-cont-2 p-4">
-	                        <div class="image p-3 rounded-circle  mx-auto">
-	                            <img src="images/services/services3.png" alt="services image"/>
+	                <div className="serv-box mb-4 col-12 col-md-6 col-lg-4" id="Web">
+	                    <div className="serv-cont serv-cont-2 p-4">
+	                        <div className="image p-3 rounded-circle">
+	                            <img src="images/services/services2.png" alt="Developpement image"/>
 	                        </div>
-	                        <h3 class="my-3">Data engineering</h3>
-	                        {/*<p>Quelle que soit sa taille, votre organisation produit des données. Ces données sont ...</p>*/}
-	                        <div class="more">
-	                            <a class="sec-btn" href="services-details.html">Détails</a>
+	                        <h3 className="my-3">Developpement Web</h3>
+	                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of</p>
+	                        <div className="more">
+	                            <a className="sec-btn" href="services-details.html">Read More</a>
 	                        </div>
 	                    </div>
 	                </div>
-	                <div class="serv-box mb-4 col-12 col-md-6 col-lg-3">
-	                    <div class="serv-cont serv-cont-2 p-4">
-	                        <div class="image p-3 rounded-circle  mx-auto">
-	                            <img src="images/services/services4.png" alt="services image"/>
+	                <div className="serv-box mb-4 col-12 col-md-6 col-lg-4" id="Mobile">
+	                    <div className="serv-cont serv-cont-2 p-4">
+	                        <div className="image p-3 rounded-circle">
+	                            <img src="images/services/coding.png" alt="mobile dev image" />
 	                        </div>
-	                        <h3 class="my-3"> Logiciel métier</h3>
-	                        {/*<p>Un logiciel métier est une solution développée pour répondre aux spécificités d’un ...</p>*/}
-	                        <div class="more">
-	                            <a class="sec-btn" href="services-details.html">Détails</a>
+	                        <h3 className="my-3">Développement Mobile</h3>
+	                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of</p>
+	                        <div className="more">
+	                            <a className="sec-btn" href="services-details.html">Read More</a>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div className="serv-box mb-4 col-12 col-md-6 col-lg-4" id="IA">
+	                    <div className="serv-cont serv-cont-2 p-4">
+	                        <div className="image p-3 rounded-circle">
+	                            <img src="images/services/services4.png" alt="Intelligence  Artificiel< image"/>
+	                        </div>
+	                        <h3 className="my-3">Intelligence  Artificiel</h3>
+	                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of</p>
+	                        <div className="more">
+	                            <a className="sec-btn" href="services-details.html">Read More</a>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div className="serv-box mb-4 col-12 col-md-6 col-lg-4" id="Recrutement">
+	                    <div className="serv-cont serv-cont-2 p-4">
+	                        <div className="image p-3 rounded-circle">
+	                            <img src="images/services/services5.png" alt="Recrutement image"/>
+	                        </div>
+	                        <h3 className="my-3">Recrutement</h3>
+	                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of</p>
+	                        <div className="more">
+	                            <a className="sec-btn" href="services-details.html">Read More</a>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div className="serv-box mb-4 col-12 col-md-6 col-lg-4" id="BI">
+	                    <div className="serv-cont serv-cont-2 p-4">
+	                        <div className="image p-3 rounded-circle">
+	                            <img src="images/services/services6.png" alt="Big Data et BI image"/>
+	                        </div>
+	                        <h3 className="my-3">Big Data et BI</h3>
+	                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of</p>
+	                        <div className="more">
+	                            <a className="sec-btn" href="services-details.html">Read More</a>
 	                        </div>
 	                    </div>
 	                </div>
 	            </div>
-	           {/* <div class="more-prog text-center mt-3">
-	                <a href="services-1.html" class="main-btn-2">More Services
-	                    <i class="fas fa-angle-double-right"></i>
+	            <div className="more-prog text-center mt-3">
+	                <a role="button"  onClick={() => scrool('Services')}  className="main-btn-2">Nos services
+	                    <i className="fas fa-angle-double-right"></i>
 	                </a>
-	            </div>*/}
+	            </div>
 	        </div>
 	    </section>
 	)

@@ -6,9 +6,9 @@
   </defs>
   <g id="_3" data-name="3" clip-path="url(#clip-_3)">
     <rect width="245" height="255" fill="#fff"/>
-    <text id="_3_" data-name="3 " transform="translate(127.551 169.441)" fill="none" stroke="#86e7fd" stroke-width="4" font-size="142" font-family="Poppins-ExtraBold, Poppins" font-weight="800"><tspan x="-56.871" y="0">3 </tspan></text>
-    <path id="Tracé_83" data-name="Tracé 83" d="M176.279,2186,53.9,2300.618" transform="translate(6.551 -2165.559)" fill="none" stroke="#86e7fd" stroke-width="4"/>
-    <path id="Tracé_84" data-name="Tracé 84" d="M176.279,2186,53.9,2300.618" transform="translate(6.551 -2115.559)" fill="none" stroke="#86e7fd" stroke-width="4"/>
-    <path id="Tracé_85" data-name="Tracé 85" d="M176.279,2186,53.9,2300.618" transform="translate(6.551 -2066.059)" fill="none" stroke="#86e7fd" stroke-width="4"/>
+    <text id="_3_" data-name="3 " transform="translate(127.551 169.441)" fill="none" stroke="#ea2088" stroke-width="4" font-size="142" font-family="Poppins-ExtraBold, Poppins" font-weight="800"><tspan x="-56.871" y="0">3 </tspan></text>
+    <path id="Tracé_83" data-name="Tracé 83" d="M176.279,2186,53.9,2300.618" transform="translate(6.551 -2165.559)" fill="none" stroke="#ea2088" stroke-width="4"/>
+    <path id="Tracé_84" data-name="Tracé 84" d="M176.279,2186,53.9,2300.618" transform="translate(6.551 -2115.559)" fill="none" stroke="#ea2088" stroke-width="4"/>
+    <path id="Tracé_85" data-name="Tracé 85" d="M176.279,2186,53.9,2300.618" transform="translate(6.551 -2066.059)" fill="none" stroke="#ea2088" stroke-width="4"/>
   </g>
 </svg>

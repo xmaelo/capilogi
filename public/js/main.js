@@ -31,11 +31,13 @@ $(document).ready(function () {
         // ---
         // Header animation 
         if ($(this).scrollTop() > 80) {
+            $(".main-btn-3").addClass("btn-slider");
             $("header").addClass("slide-header");
-            $("header nav .navbar-brand img").attr("src" , "images/logo/white.png")
+            $("header nav .navbar-brand img").attr("src" , "images/logo/logo_violet_sans_fond.png")
         } else {
             $("header").removeClass("slide-header");
-            $("header nav .navbar-brand img").attr("src" , "images/logo/1.png")
+            $(".main-btn-3").removeClass("btn-slider");
+            $("header nav .navbar-brand img").attr("src" , "images/logo/white_logo.png")
         }
         // ---
         // ScrollTop show
@@ -170,6 +172,24 @@ $(document).ready(function () {
             }
         }
     });
+    var swiper = new Swiper('.title-slider', {
+        speed: 600,
+        loop: true,
+        slidesPerView: 1,
+        autoplay: true,
+        grabCursor: true,
+        breakpoints:{
+            576:{
+                 slidesPerView: 1, 
+                },
+            768:{
+                slidesPerView: 1, 
+                },
+            992:{
+            slidesPerView: 1, 
+            }
+        }
+    });
     // ---------------
 
     // F.A.Q. Accordion
@@ -236,7 +256,22 @@ $(document).ready(function () {
         $("#seconds").html(seconds + "<span>Seconds</span>");
     }
     setInterval(function() { comingTimer(); }, 1000);
-    // ---------------
+
+
+        // cookie policy
+  if (document.cookie.indexOf("accepted_cookies=") < 0) {
+    $('.cookie-consent').removeClass('d-none').addClass('d-block');
+  }
+
+  $('.accept-cookies').on('click', function() {
+    document.cookie = "accepted_cookies=yes;"
+    $('.cookie-consent').removeClass('d-block').addClass('d-none');
+  })
+
+  // expand depending on your needs
+  $('.close-cookies').on('click', function() {
+    $('.cookie-consent').removeClass('d-block').addClass('d-none');
+  })
 
 
 });

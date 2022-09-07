@@ -14,7 +14,7 @@ export default function Metier(){
 	                        <h2>Métier</h2>
 	                    </div> 
 	                    <p className="pb-2">
-	                    	<strong><i class="fas fa-arrow-right"></i> Génie logiciel: CAPILOGI</strong>  vous conseille et vous accompagne dans la réalisation et le
+	                    	<strong><i className="fas fa-arrow-right"></i> Génie logiciel: CAPILOGI</strong>  vous conseille et vous accompagne dans la réalisation et le
 							déploiement de vos projets informatiques. Nous donnons vie à vos projets, et
 							assurons leur pérennité. Nous sommes experts en :
 	                    </p>
@@ -26,7 +26,7 @@ export default function Metier(){
 	                        <span>Développement d'application d'aide à la décision</span>
 	                    </div>
 	                    <p className="pb-2">
-	                    	<strong><i class="fas fa-arrow-right"></i> Recrutement: CAPILOGI</strong>  c’est aussi un cabinet de recrutement. Grâce à notre
+	                    	<strong><i className="fas fa-arrow-right"></i> Recrutement: CAPILOGI</strong>  c’est aussi un cabinet de recrutement. Grâce à notre
 								expertise du secteur IT, nous recrutons pour vous les meilleurs profils de
 								développeurs web, de développeurs mobile, d’ingénieur data pour vous
 								accompagner dans votre croissance.

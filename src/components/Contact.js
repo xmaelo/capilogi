@@ -4,39 +4,46 @@ import React from 'react'
 
 export default function Contact(){
 	return(
-		<section class="contact mt-3">
-	        <div class="container">
-	            <div class="main-heading">
-	                <h5 class="pb-2">Contact</h5>
-	                <h2>Keep in touch with</h2>
+		<section className="contact mt-3" id="Contact">
+	        <div className="container">
+	            <div className="main-heading">
+	                <h5 className="pb-2">Contact</h5>
+	                <h2>Contactez-nous</h2>
 	            </div>
 	           
-	            <div class="contact-field">
-	                <div class="map">
-	                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435330.2461244175!2d-119.22978090041478!3d35.016509229685205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c229d213a60943%3A0x3458deb43bf50b32!2sCalifornia%20City%2C%20CA%2C%20USA!5e0!3m2!1sen!2seg!4v1630528358426!5m2!1sen!2seg" style={{"border":0}} loading="lazy"></iframe>
+	            <div className="contact-field">
+	                <div className="map">
+	                    
+	                    <div class="mapouter">
+	                    	<div class="gmap_canvas">
+	                    		<iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+	                    			src="https://maps.google.com/maps?width=600&amp;height=527&amp;hl=en&amp;q=Paris, 75008&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+	                    		<a href="https://mcpenation.com/">Minecraft Website</a>
+	                    	</div>
+	                    </div>
 	                </div>
-	                <div class="contact-form-box">
-	                    <h3>Send Us Messages</h3>
-	                    <form class="form-contact" action="php/contact.php" method="POST">
-	                        <div class="flex-form d-flex justify-content-between flex-wrap">
-	                            <div class="name">
-	                                <input class="w-100" type="text" name="name" required placeholder="Name"/>
+	                <div className="contact-form-box">
+	                    <h3>Envoyer un message</h3>
+	                    <form className="form-contact" action="php/contact.php" method="POST">
+	                        <div className="flex-form d-flex justify-content-between flex-wrap">
+	                            <div className="name">
+	                                <input className="w-100" type="text" name="name" required placeholder="Nom"/>
 	                            </div>
-	                            <div class="email">
-	                                <input class="w-100" type="email" name="email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required placeholder="Email"/>
+	                            <div className="email">
+	                                <input className="w-100" type="email" name="email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required placeholder="E-mail"/>
 	                            </div>
-	                            <div class="name">
-	                                <input class="w-100" type="text" name="subject" required placeholder="Subject"/>
+	                            <div className="name">
+	                                <input className="w-100" type="text" name="subject" required placeholder="Objet"/>
 	                            </div>
-	                            <div class="message">
-	                                <textarea class="w-100" name="message" required placeholder="Message"></textarea>
+	                            <div className="message">
+	                                <textarea className="w-100" name="message" required placeholder="Votre message"></textarea>
 	                            </div>
 	                        </div>
-	                        <button class="main-btn-2" type="submit">
-	                            Send Message
-	                            <i class="far fa-paper-plane"></i>
+	                        <button className="main-btn-2" type="submit">
+	                            Envoyer
+	                            <i className="far fa-paper-plane"></i>
 	                        </button>
-	                        <p class="respond-message"></p>
+	                        <p className="respond-message"></p>
 	                    </form>
 	                </div>
 	            </div>
