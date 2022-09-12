@@ -50,7 +50,7 @@ export default function Footer(){
 	                        <form action="#">
 	                            <div className="sub-box">
 	                                <input type="email" placeholder="Email" required/>
-	                                <button type="submit">
+	                                <button type="submit" className="main-btn-1">
 	                                    Send
 	                                    <i className="fas fa-location-arrow"></i>
 	                                </button>

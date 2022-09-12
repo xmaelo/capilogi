@@ -25,7 +25,7 @@ export default function TrustUs(){
 	                    </p>
 	                    <div className="merits pt-2">
 	                        <span>Développement de site internet</span>
-	                        <span>Développement des rapports de data visualisation</span>
+	                        <span>Développement de Dashboard</span>
 	                        <span>Développement e-commerce.</span>
 	                        <span>Développement de bot</span>
 	                        <span>Développement logiciel métier</span>

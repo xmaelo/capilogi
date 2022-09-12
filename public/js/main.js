@@ -8,11 +8,13 @@
 
 $(document).ready(function () {
 
+    
+
     // Scroll button && Preloader
     $(".scroll-top").click(function() {
         $("body , html").animate({scrollTop : 0} , 0 ,1500);
     });
-    $(".preloader").delay(750).fadeOut(500);
+    //$(".preloader").delay(750).fadeOut(500);
     // $(".preloader").fadeOut();
 
     // ---------------
@@ -31,7 +33,7 @@ $(document).ready(function () {
         // ---
         // Header animation 
         if ($(this).scrollTop() > 80) {
-            $(".main-btn-3").addClass("btn-slider");
+            //$(".main-btn-3").addClass("btn-slider");
             $("header").addClass("slide-header");
             $("header nav .navbar-brand img").attr("src" , "images/logo/logo_violet_sans_fond.png")
         } else {
@@ -109,10 +111,22 @@ $(document).ready(function () {
     // Counter
     $(".odometer").each(function(){
         $(this).appear(function() {
-            var countNumber = $(this).attr("data-count");
-            $(this).html(countNumber);
+            try{
+                var countNumber = $(this).attr("data-count");
+                console.log('countNumber countNumber', countNumber, this)
+                $(this).html(countNumber);
+                let qty = 1;
+                
+            }catch(e){
+                console.log('odemeter eror', e)
+            }
+            
         });
     });
+
+
+
+
     // ---------------
 
     // Projects section
@@ -211,6 +225,7 @@ $(document).ready(function () {
             })
             .done(function(response) {
                 // Make sure that the formMessages div has the 'success' class.
+                console.log('responsen response response', response)
                 $('.respond-message').fadeIn();
                 $('.respond-message').text(response);
                 $(".form-contact").find("input:not(input[type='submit'])").val('');
@@ -219,6 +234,7 @@ $(document).ready(function () {
             })
             .fail(function(data) {
                 // Set the message text.
+                console.log('data data response', data)
                 if (data.responseText !== '') {
                     $('.respond-message').fadeIn();
                     $('.respond-message').text(data.responseText);

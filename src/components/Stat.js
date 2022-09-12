@@ -10,7 +10,7 @@ export default function Stat(){
 		                    <div className="icon">
 		                        <i className="far fa-thumbs-up"></i>
 		                    </div>
-		                    <span className="odometer" data-count="100">+100</span>
+		                    <span className="odometer" data-count="+100">+100</span>
 		                    <h4>Projects</h4>
 		                </div>       
 		                <div className="position-relative text-center">
@@ -24,14 +24,14 @@ export default function Stat(){
 		                    <div className="icon">
 		                        <i className="far fa-smile"></i>
 		                    </div>
-		                    <span className="odometer" data-count="100%">100%</span>
+		                    <span className="odometer" data-count="100%">+100</span>
 		                    <h4>De client satisfait</h4>
 		                </div>
 		                <div className="position-relative text-center">
 		                    <div className="icon">
 		                        <i className="fas fa-award"></i>
 		                    </div>
-		                    <span className="odometer" data-count="70%">78%</span>
+		                    <span className="odometer" data-count="78%">78%</span>
 		                    <h4>De 5 étoiles</h4>
 		                </div>
 		            </div>

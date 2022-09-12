@@ -13,22 +13,27 @@ export default function Partner(){
 	                <div className="swiper-wrapper">
 	                    <div className="swiper-slide p-3">
 	                        <a className="d-block w-100" role="button">
-	                            <img className="img-fluid w-100" src="images/partners/poste.jpg" alt="partners"/>
+	                            <img className="img-fluid w-100" src="images/partners/poste.png" alt="partners"/>
+	                        </a>
+	                    </div>
+	                    {/*<div className="swiper-slide p-3">
+	                        <a className="d-block w-100" role="button">
+	                            <img className="img-fluid w-100" src="images/partners/domiciliation.png" alt="domiciliation"/>
+	                        </a>
+	                    </div>*/}
+	                    <div className="swiper-slide p-3">
+	                        <a className="d-block w-100" role="button">
+	                            <img className="img-fluid w-100" src="images/partners/legalPlace.png" alt="legalPlace"/>
 	                        </a>
 	                    </div>
 	                    <div className="swiper-slide p-3">
 	                        <a className="d-block w-100" role="button">
-	                            <img className="img-fluid w-100" src="images/partners/domiciliation.png" alt="partners"/>
+	                            <img className="img-fluid w-100" src="images/partners/crediM.png" alt="crediM"/>
 	                        </a>
-	                    </div>
+	                    </div> 
 	                    <div className="swiper-slide p-3">
 	                        <a className="d-block w-100" role="button">
-	                            <img className="img-fluid w-100" src="images/partners/legalPlace.png" alt="partners"/>
-	                        </a>
-	                    </div>
-	                    <div className="swiper-slide p-3">
-	                        <a className="d-block w-100" role="button">
-	                            <img className="img-fluid w-100" src="images/partners/crediM.png" alt="partners"/>
+	                            <img className="img-fluid w-100" src="images/partners/agence_web.png" alt="agence_web"/>
 	                        </a>
 	                    </div>
 	                </div>

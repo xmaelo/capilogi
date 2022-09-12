@@ -20,9 +20,9 @@ export default function KeepInTouch(){
 	            <div className="cont-info pt-5 row">
 	                <div className="col-12 col-md-6 col-lg-4 px-3 mb-4">
 	                    <div className="cont-box">
-	                        <h4>Bureau</h4>
-	                        <address>Rue saint Georges Acigné, à 20 min de Rennes,</address>
-	                        <address className="mb-0">59, Rue de Ponthieu, 75008 Paris</address>
+	                        <h4>Agence</h4>
+	                        <address>Agence de Paris</address>
+	                        <address className="mb-0">Agence de Rennes</address>
 	                        <i className="fas fa-map-marker-alt"></i>
 	                    </div>
 	                </div>

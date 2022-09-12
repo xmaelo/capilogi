@@ -17,7 +17,7 @@ export default function Header(){
 		<header className="shadow-sm">
 	        <nav className="navbar-desktop d-none d-lg-block w-100">
 	            <div className="container d-flex justify-content-between align-items-center position-relative">
-	                <a className="navbar-brand p-0" href="index.html">
+	                <a className="navbar-brand p-0" href="/">
 	                    
 		                {/*<span className="branding">
 		                	CAPILOGI
@@ -107,6 +107,9 @@ export default function Header(){
 	                </div>
 	            </div>
 	        </nav>
+
+
+
 	        <nav className="navbar-responsive d-block d-lg-none w-100">
 	            <div className="container d-flex justify-content-between align-items-center position-relative">
 	                <a className="navbar-brand p-0" href="index.html">
@@ -125,10 +128,10 @@ export default function Header(){
 	                            </ul>
 	                        </li>*/}
 	                        <li className="nav-item drop-cont">
-	                            <a className="nav-link"  role="button" onClick={() => scrool('Services')}>
+	                            <button className="nav-link"  >
 	                                Services
 	                                {<i className="fas fa-chevron-down"></i>}
-	                            </a>
+	                            </button>
 	                            <ul className="dropdown-items ps-0">
 	                                <li><a className="nav-item" role="button" onClick={() => scrool('Mobile', 95)}>Développement mobile</a></li>
 	                                <li><a className="nav-item" role="button" onClick={() => scrool('Web', 95)}>Développement web</a></li>
@@ -175,10 +178,11 @@ export default function Header(){
 	                            </ul>
 	                        </li>*/}
 	                        <li className="nav-item drop-cont">
-	                            <a className="nav-link" role="button"  onClick={() => scrool('About')}>
-	                            	A Propos
-	                            	<i className="fas fa-chevron-down"></i>
-	                            </a>
+	                            
+	                            <button className="nav-link">
+	                                A Propos
+	                                {<i className="fas fa-chevron-down"></i>}
+	                            </button>
 	                            <ul className="dropdown-items ps-0">
 	                              <li><a className="nav-item" role="button" onClick={() => scrool('About')}>Métier</a></li>
 	                              <li><a className="nav-item" role="button" onClick={() => scrool('Team')}>Équipe</a></li>

@@ -23,8 +23,8 @@ export default function Contact(){
 	                    </div>
 	                </div>
 	                <div className="contact-form-box">
-	                    <h3>Envoyer un message</h3>
-	                    <form className="form-contact" action="php/contact.php" method="POST">
+	                    <h3>Parlons de vos projets</h3>
+	                    <form className="form-contact" action="http://localhost:8080/php/contact.php" method="POST">
 	                        <div className="flex-form d-flex justify-content-between flex-wrap">
 	                            <div className="name">
 	                                <input className="w-100" type="text" name="name" required placeholder="Nom"/>
@@ -39,7 +39,7 @@ export default function Contact(){
 	                                <textarea className="w-100" name="message" required placeholder="Votre message"></textarea>
 	                            </div>
 	                        </div>
-	                        <button className="main-btn-2" type="submit">
+	                        <button className="main-btn-1" type="submit">
 	                            Envoyer
 	                            <i className="far fa-paper-plane"></i>
 	                        </button>

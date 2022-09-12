@@ -1,5 +1,5 @@
 
-import React from 'react'
+import React, {useEffect} from 'react'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Service from '../components/Service'
@@ -19,7 +19,9 @@ import KeepInTouch from '../components/KeepInTouch'
 
 export default function Home(){
 
-
+	useEffect(() =>{
+		window.$(".preloader").delay(750).fadeOut(500);
+	}, [])
 
 	return (
 		<>
@@ -41,11 +43,9 @@ export default function Home(){
 	          <span>Ce site utilise des cookies pour améliorer l'expérience utilisateur. <a href="#" className="ml-1 text-decoration-none">Politique de confidentialité</a> </span>
 	          <div className="mt-2 d-flex align-items-center justify-content-center gap-2">
 	            <button className="allow-button mr-1 accept-cookies">Accepter</button>
-	            <button className="allow-button close-cookies">Fermer</button>
+	            <button className="allow-button close-cookies">Refuser</button>
 	          </div>
 	        </div>
-			
-			
 		</>
 	)
 }

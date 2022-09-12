@@ -1,8 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import Home from './pages/Home'
+import NotFound from './pages/NotFound'
+import { Routes, Route, Link } from "react-router-dom";
 
-function App() {
+function Site() {
   return (
     <>
       <button className="scroll-top">
@@ -21,5 +23,16 @@ function App() {
     </>
   );
 }
+
+
+function App(){
+  return(
+    <Routes>
+        <Route path="/" element={<Site />} />
+        <Route path="*" element={<NotFound />} />
+     </Routes>
+  )
+}
+
 
 export default App;

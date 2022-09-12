@@ -31,7 +31,7 @@ export default function Hero(){
 	                        <a className="main-btn-3 mx-2"  role="button"  onClick={() => scrool('Services')}>Nos solutions
 	                            <i className="fas fa-angle-double-right"></i>
 	                        </a>
-	                        <a className="main-btn-4 mx-2"  role="button"  onClick={() => scrool('Contact')}>Discuter
+	                        <a className="main-btn-4 mx-2" href="https://calendly.com/contact_capilogi"  target="_blank"  role="button" >Discuter
 	                            <i className="fas fa-angle-double-right"></i>
 	                        </a>
 	                    </div>
